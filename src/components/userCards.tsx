@@ -6,7 +6,7 @@ import axios from "axios";
 import Link from "next/link";
 import Image from "next/image";
 
-const Card = ({ user }: any) => {
+const Card = ({ user }: any) => { 
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [userLocation, setUserLocation] = useState<any>({});
 
